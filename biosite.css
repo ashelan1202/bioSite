@@ -1,0 +1,84 @@
+header {
+	background-color: #BCBAFF;
+	color: black;
+	padding: 10px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+}
+
+h3 {
+	text-align: center;
+	font-weight: bold;
+}
+
+figure {
+	text-align: center;
+}
+
+figcaption {
+	color: black;
+	font-size: .75em;
+}
+
+#navbar {
+	overflow: hidden;
+	background-color: #BACEFF;
+}
+
+#navbar a {
+	float: left;
+	display: block;
+	color: navy;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#navbar a:hover {
+	background-color: #BAF9FF;
+	color: #D3BAFF;
+}
+
+#container {
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 10px;
+}
+
+#list-elements {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	width: 25%;
+}
+
+#left-list, #middle-list, #right-list {
+	display: block;
+	border: 5px dotted grey;
+	background-color: #BAE3FF;
+	color: black;
+}
+
+#hobbie-spotlight {
+	display: block;
+	background-color: #BAE3FF;
+
+}
+
+#playlists {
+	display: block;
+}
+
+#music {
+	background-color: #BCBAFF;
+
+}
+
+#visual-media {
+	background-color: #BCBAFF;
+
+}
