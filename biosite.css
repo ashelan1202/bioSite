@@ -148,7 +148,8 @@ p {
 #playlists {
 	width: 28%;
 	display: grid;
-	float: right;
+	float: left;
+	margin-left: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	transition: 0.3s;
 }
