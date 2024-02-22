@@ -4,10 +4,23 @@
 <head>
 	<title>CSD 340 Web Development with HTML and CSS</title>
 	<link rel="stylesheet" type="text/css" href="biosite.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pixelify Sans">
+	<style>
+		body {
+			font-family: 'Pixelify Sans'; font-size: 20px;
+		}
+	</style>
 </head>
 
+<body>
 <header>
 	<h1>An Introduction to Zena's Hobbies</h1>
+	<p id="dnt"></p>
+
+	<script>
+		const t = new Date();
+		document.getElementById("dnt").innerHTML = t.toUTCString();
+	</script>
 </header>
 	<div id="navbar">
 		<nav>
@@ -35,7 +48,7 @@
 				<p>A lot of Zena's hobbies revolve around nature and quiet, relaxing activities. When she isn't taking care of the several houseplants she has in her apartment, she is taking time to go through her reading list. Reading has been a hobby of her's since she was younger, and a bit later in her childhood is when she got into playing video games/mobile game. When she recieved an Apple ipod in middle school, around 2012, she was able to get into mobile games through the applications provided by the app store on her device. As for other types of games, she mostly plays them on her Nintendo Switch console. She is currently playing Animal Crossing: New Horizons, Persona 3, Persona 5, and Fire Emblem.</p>
 			</div>
 			<div id="hobby-in-motion">
-				<video width="658" height="240" controls muted>
+				<video width="615" height="240" controls>
 					<source src="zena_hobby_video.mov" type="video/mp4">
 				</video>
 				<p>This is a short video clip of one of Zena's favorite video game series. The specific game being shown in the clip is Persona 3, and she describes it as a good moment she was glad that she remembered to document during gameplay.</p>
@@ -44,4 +57,4 @@
 <footer>
 	<p style="float: left;"><a href="index.html">Ashley Landin - BioSite Project 2024</a></p>
 </footer>
-
+</body>

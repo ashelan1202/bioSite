@@ -4,10 +4,23 @@
 <head>
 	<title>CSD 340 Web Development with HTML and CSS</title>
 	<link rel="stylesheet" type="text/css" href="biosite.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pixelify Sans">
+	<style>
+		body {
+			font-family: 'Pixelify Sans'; font-size: 20px;
+		}
+	</style>
 </head>
 
+<body>
 <header>
 	<h1>Zena Quach: About Page</h1>
+	<p id="dnt"></p>
+
+	<script>
+		const t = new Date();
+		document.getElementById("dnt").innerHTML = t.toUTCString();
+	</script>
 </header>
 <div id="navbar">
 	<nav>
@@ -48,4 +61,4 @@
 <footer>
 	<p style="float: left;"><a href="index.html">Ashley Landin - BioSite Project 2024</a></p>
 </footer>
-
+</body>

@@ -4,10 +4,21 @@
 <head>
 	<title>CSD 340 Web Development with HTML and CSS</title>
 	<link rel="stylesheet" type="text/css" href="biosite.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pixelify Sans">
+	<style>
+		body {
+			font-family: 'Pixelify Sans'; font-size: 20px;
+		}
+	</style>
 </head>
-
+<body>
 <header>
 	<h1>Zena Quach: BioSite Landing Page</h1>
+	<p id="dnt"></p>
+	<script>
+		const t = new Date();
+		document.getElementById("dnt").innerHTML = t.toUTCString();
+	</script>
 </header>
 <div id="navbar">
 	<nav>
@@ -54,7 +65,7 @@
 				<img src="zena_plant_hobby_2.jpeg" width="350">
 				<figcaption>One of Zena's hobbies is taking care of houseplants, and here is an image featuring one of her houseplants that she takes care of in her cublicle at work. The plant is a Zizi plant, and they are very easy to take care of, which is why Zena felt comfortable bringing this plant to work to brighten up her workspace.</figcaption>
 			</figure>
-			<a href="biosite_hobbies.html">Want to learn about more of Zena's hobbies? Click here.</a>
+			<p style="text-align: center; margin-left: 30px;"><a href="biosite_hobbies.html">Want to learn about more of Zena's hobbies? Click here.</a></p>
 		</div>
 		<div id="playlists">
 			<div id="music">
@@ -83,5 +94,6 @@
 <footer>
 	<p style="float: left;"><a href="index.html">Ashley Landin - BioSite Project 2024</a></p>
 </footer>
+</body>
 
 
